@@ -15,7 +15,6 @@ document.write('<br>Pi is '+pi)
 //let keyword = cant redeclare but reassign is possible
 let x=100
 document.write('<br>A is '+x)
-
 x="Abc"
 document.write('<br>A is '+x)
 

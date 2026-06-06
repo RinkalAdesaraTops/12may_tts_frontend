@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Logical - &&and ||or !not
+        let a=25
+        let b=10
+        let c=17
+
+        document.write('<br> a > b && a > c is '+(a>b && a>c)) //25>10 && 25>27
+        document.write('<br> a > b || a > c is '+(a>b || a>c))
+        document.write('<br> a > b '+(a>b))
+        document.write('<br> ! a > b '+ !(a>b))
+
+        //type of operators
+
+        document.write('<br>25 is '+typeof(25))
+        document.write('<br>25.45 is '+typeof(25.45))
+        document.write('<br>R is '+typeof('R'))
+        document.write('<br>dsf is '+typeof(true))
+        document.write('<br>dsf is '+typeof(false))
+        let x
+        document.write('<br>X is '+typeof(x))
+        document.write('<br>Array is '+typeof([]))
+        document.write('<br>Object is '+typeof({}))
+
+        //ternary operator - ?:
+        //(condition)?true block: false block
+        document.write((a>b)?"<br> A is maximum":"<br>B is maximum")
+
+        if(a>b){
+            document.write('<br>A is max')
+        } else {
+            document.write('<br>B is max')
+        }
+        let age=15
+        document.write((age>=18)?"<br>ELigible 4 vote":"<br>Not eligible 4 vote")
+
+        let no=25 //check no is even or odd
+        document.write((no%2 == 0)?"<br>It is even no":"<br>It is odd no")
+    </script>
+</body>
+</html>
